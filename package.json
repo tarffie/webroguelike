@@ -1,0 +1,16 @@
+{
+  "name": "webroguelike",
+  "version": "1.0.0",
+  "description": "a roguelike game thought for web :) ",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "roguelike",
+    "typescript",
+    "wasm"
+  ],
+  "author": "Emilia \"tarffie\" Alves",
+  "license": "BSD-3-Clause"
+}
