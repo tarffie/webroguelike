@@ -1,0 +1,54 @@
+{
+  "pc": {
+    "health": 10,
+    "level": 1,
+    "strength": 8,
+    "mana": 5
+  },
+  "classes": ["neet", "engineer", "teacher", "cook", "burglar"],
+  "npcs": {},
+  "items": {
+    "potions": {},
+    "weapons": {
+      "meele": {},
+      "guns": {}
+    },
+    "clothes": {},
+    "papers": {},
+    "races": {
+      "vampire": {
+        "hp": 3,
+        "mana": 5,
+        "atk": 25,
+        "skills": {
+          "blood suck": {
+            "name": "blood suck",
+            "descritpion": "you suck your enemies blood and gain a nice effect :)"
+          }
+        }
+      },
+      "human": {
+        "description": "and good ol' humans",
+        "hp": 1,
+        "mana": 1,
+        "atk": 10,
+        "skills": {}
+      }
+    },
+    "documents": {},
+    "pills": {},
+    "foods": {}
+  },
+  "enemies": {
+    "nurse": {
+      "name": "nurse",
+      "level": 2,
+      "health": 5
+    },
+    "p.e teacher": {
+      "name": "p.e teacher",
+      "level": 4,
+      "health": 7
+    }
+  }
+}
