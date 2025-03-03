@@ -1,12 +1,19 @@
-import { DungeonGenerator } from "@/structs/DungeonGenerator";
+import { Engine } from "@/engine";
+
+declare global {
+  interface Window {
+    engine: Engine;
+  }
+}
 
 (() => {
-  const game = <HTMLCanvasElement>document!.getElementById("game");
-  const ctx = game.getContext("2d");
+  const engine = new Engine();
 
-  ctx!.fillStyle = "red";
-  ctx!.fillRect(10, 10, 150, 100);
+  window.addEventListener("DOMContentLoaded", () => {
+    engine;
+  });
 
-  const dg = new DungeonGenerator();
-  console.log(dg.generateRoom());
+  window.addEventListener("keydown", (event) => {
+    engine.update(event);
+  });
 })();

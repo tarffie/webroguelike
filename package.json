@@ -4,13 +4,34 @@
   "description": "a roguelike game thought for web :) ",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "lint": "eslint .",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "keywords": [
     "roguelike",
     "typescript",
     "wasm"
   ],
+  "devDependencies": {
+    "@eslint/js": "^9.8.0",
+    "@types/eslint__js": "^8.42.3",
+    "@types/node": "^20.14.14",
+    "eslint": "^9.9.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.9.0",
+    "prettier": "^3.3.3",
+    "tsc-alias": "^1.8.10",
+    "tsx": "^4.19.2",
+    "typescript": "^5.5.4",
+    "vite": "^6.1.0"
+  },
   "author": "Emilia \"tarffie\" Alves",
-  "license": "BSD-3-Clause"
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "rot-js": "^2.2.1"
+  }
 }
